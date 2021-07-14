@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2017",
     "module": "commonjs",
     "declaration": false,
     "sourceMap": true,
@@ -10,19 +10,9 @@
     "newLine": "LF",
     "pretty": true,
     "moduleResolution": "node",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "types": [
-      "node",
-      "mocha"
-    ]
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node", "mocha"]
   },
-  "include": [
-    "tests",
-    "src"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["tests", "src"],
+  "exclude": ["node_modules"]
 }
